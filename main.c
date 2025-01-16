@@ -34,12 +34,16 @@ If user goes north, they will encounter a cold blizzard and go to a tundra
 
 switch (direction) {
     case 1:
+    northStory();
     break;
     case 2:
+    southStory();
     break;
     case 3:
+    eastStory();
     break;
     case 4:
+    westStory();
     break;
 }
 
