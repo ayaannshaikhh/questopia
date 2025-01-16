@@ -1,0 +1,42 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e2f;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #4caf50;
+    font-size: 3em;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 1.5em;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #cfb1f8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
