@@ -1,10 +1,7 @@
-.PHONY: display
+.PHONY: all display clean
 
 all:
-	gcc -o story main.c north.c south.c east.c west.c -lm
+	gcc -o story main.c storylines/north.c storylines/south.c storylines/east.c storylines/west.c -lm
 
-display:
-	@echo "Starting Python HTTP server..."
-	cd display && python3 -m http.server 8000 &
-	sleep 1
-	xdg-open http://localhost:8000 || open http://localhost:8000 || start http://localhost:8000
+clean:
+	rm -f story display/output.txt

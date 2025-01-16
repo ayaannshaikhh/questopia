@@ -1,0 +1,21 @@
+﻿┌────────────────────────────┐
+│       Spooky Forest        │
+├────────────────────────────┤
+│   The path you pick will   │
+│   determine your fate...   │
+├────────────────────────────┤
+│ Options:                   │
+│ 1. North      2. South     │
+│ 3. East       4. West      │
+├────────────────────────────┤
+What do you pick? > ┌────────────────────────────┐
+│         Icey Tundra        │
+├────────────────────────────┤
+│   You encounter a strong   │
+│  blizzard, what do you do? │
+├────────────────────────────┤
+│ Options:                   │
+│ 1. Run towards a cave      │
+│ 2. Roll down a hill        │
+├────────────────────────────┤
+What do you pick? > You encountered a swarm of bats and died!

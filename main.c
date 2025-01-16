@@ -3,6 +3,17 @@
 #include <math.h>
 #include "header.h"
 
+/*
+MAKEFILE PYTHON SERVER
+display:
+	@echo "Running C program and starting Python HTTP server..."
+	./story > display/output.txt &
+	cd display && python3 -m http.server 8000 &
+	sleep 1
+	open http://localhost:8000/output.txt
+
+*/
+
 int main () {
 bool newPlayer = true;
 int direction; // 1 = north, 2 = south, 3 = east, 4 = west
