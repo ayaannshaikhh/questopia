@@ -3,7 +3,8 @@
 - actually code it...
 
 ## Python HTTP Server
-Currently looking into the Python HTTP server to display values of the terminal into 
+Currently looking into the Python HTTP server to display values of 
+the terminal into a local browser using HTML5/CSS.
 - `cd display`
 - `python3 -m http.server 8000`
 ### Killing the Server
